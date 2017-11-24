@@ -2,8 +2,7 @@ import React from 'react';
 
 
 const Header = (props) => {
-
-  return(
+  return (
     <header className="top">
       <h1>
         Catch
@@ -15,8 +14,12 @@ const Header = (props) => {
       </h1>
       <h3 className="tagline"><span>{props.tagline}</span></h3>
     </header>
-  );
+  )
 }
+
+
+
+
 
 
 export default Header;
